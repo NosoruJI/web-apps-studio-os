@@ -39,8 +39,43 @@ related:
 * WAS-CORE-003
 * WAS-STD-001
 
-supersedes: null
-superseded_by: null
+documentation_standard: WAS-STD-001
+
+metadata_standard: WAS-STD-002
+
+versioning_standard: WAS-STD-004
+
+review_standard: WAS-STD-005
+
+prerequisites: []
+
+deliverables: 
+
+  - Project Vision
+
+  - Repository Structure
+
+  - Core Principles
+
+maturity_level: L1
+
+ai:
+
+  inputs: []
+
+  outputs: Project Overview
+
+  handoff_to: WAS-CORE-002
+
+review:
+
+  reviewer:
+
+  review_date:
+
+  approved_by:
+
+  approval_date:
 
 created: 2026-06-29
 last_updated: 2026-06-29
@@ -65,6 +100,30 @@ Project Overview เป็นเอกสารแรกที่ทุกคน
 
 ---
 
+# Quick Navigation
+
+## Purpose
+
+...
+
+## Audience
+
+...
+
+## Estimated Reading Time
+
+5 minutes
+
+## Prerequisites
+
+- WAS-CORE-001
+
+## Next Reading
+
+- WAS-CORE-002
+
+---
+
 # Purpose
 
 เอกสารนี้มีหน้าที่
@@ -74,6 +133,17 @@ Project Overview เป็นเอกสารแรกที่ทุกคน
 * อธิบายโครงสร้างของ Documentation
 * อธิบายความสัมพันธ์ของ Module
 * เป็นจุดเริ่มต้นของ Core Framework
+
+---
+
+# Definitions
+
+| Term | Definition |
+|------|------------|
+| Web Apps Studio OS | ระบบมาตรฐานสำหรับการพัฒนา Web Applications |
+| Core Framework | ชุดหลักการและกฎกลางของระบบ |
+| Expert | ผู้เชี่ยวชาญแต่ละบทบาท |
+| Standard | มาตรฐานที่ทุกเอกสารต้องปฏิบัติตาม |
 
 ---
 
@@ -295,6 +365,20 @@ None
 
 ---
 
+# Checklist
+
+- [ ] Executive Summary ครบ
+- [ ] Purpose ชัดเจน
+- [ ] Scope ครบ
+- [ ] Definitions ครบ
+- [ ] Dependencies ถูกต้อง
+- [ ] Related Documents ครบ
+- [ ] Metadata ครบ
+- [ ] Review ครบ
+- [ ] Change History อัปเดต
+
+---
+
 # Review
 
 Reviewer:
@@ -312,3 +396,43 @@ Approval Date:
 | Version | Date       | Author          | Changes         |
 | ------- | ---------- | --------------- | --------------- |
 | 1.0.0   | 2026-06-29 | Web Apps Studio | Initial Release |
+
+---
+
+# Document Metadata
+
+| Item | Value |
+|------|-------|
+| Standard | WAS-STD-001 |
+| Version | 1.0.0 |
+| Status | Active |
+| Maturity | L1 |
+| Owner | Web Apps Studio |
+
+---
+
+# Deliverables
+
+-
+
+---
+
+# Prerequisites
+
+-
+
+---
+
+# AI Handoff
+
+## Inputs
+
+-
+
+## Outputs
+
+-
+
+## Next Document
+
+-

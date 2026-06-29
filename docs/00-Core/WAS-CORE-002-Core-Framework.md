@@ -32,6 +32,44 @@ related:
 * WAS-CORE-003
 * WAS-STD-001
 
+documentation_standard: WAS-STD-001
+
+metadata_standard: WAS-STD-002
+
+versioning_standard: WAS-STD-004
+
+review_standard: WAS-STD-005
+
+prerequisites: []
+
+deliverables: 
+
+  - Framework Model
+
+  - Core Workflow
+
+  - Collaboration Rules
+
+maturity_level: L1
+
+ai:
+
+  inputs: WAS-CORE-001
+
+  outputs: Core Framework
+
+  handoff_to: WAS-CORE-003
+
+review:
+
+  reviewer:
+
+  review_date:
+
+  approved_by:
+
+  approval_date:
+
 created: 2026-06-29
 last_updated: 2026-06-29
 ------------------------
@@ -57,6 +95,17 @@ Core Framework มีหน้าที่
 * กำหนดการทำงานร่วมกันของทุก Expert
 * กำหนดหลักการตัดสินใจ
 * กำหนดมาตรฐานการส่งมอบ (Handoff)
+
+---
+
+# Definitions
+
+| Term | Definition |
+|------|------------|
+| Web Apps Studio OS | ระบบมาตรฐานสำหรับการพัฒนา Web Applications |
+| Core Framework | ชุดหลักการและกฎกลางของระบบ |
+| Expert | ผู้เชี่ยวชาญแต่ละบทบาท |
+| Standard | มาตรฐานที่ทุกเอกสารต้องปฏิบัติตาม |
 
 ---
 
@@ -227,6 +276,20 @@ Expert Modules ทั้งหมด
 
 ---
 
+# Checklist
+
+- [ ] Executive Summary ครบ
+- [ ] Purpose ชัดเจน
+- [ ] Scope ครบ
+- [ ] Definitions ครบ
+- [ ] Dependencies ถูกต้อง
+- [ ] Related Documents ครบ
+- [ ] Metadata ครบ
+- [ ] Review ครบ
+- [ ] Change History อัปเดต
+
+---
+
 # Review
 
 Reviewer:
@@ -244,3 +307,43 @@ Approval Date:
 | Version | Date       | Author          | Changes         |
 | ------- | ---------- | --------------- | --------------- |
 | 1.0.0   | 2026-06-29 | Web Apps Studio | Initial Release |
+
+---
+
+# Document Metadata
+
+| Item | Value |
+|------|-------|
+| Standard | WAS-STD-001 |
+| Version | 1.0.0 |
+| Status | Active |
+| Maturity | L1 |
+| Owner | Web Apps Studio |
+
+---
+
+# Deliverables
+
+-
+
+---
+
+# Prerequisites
+
+-
+
+---
+
+# AI Handoff
+
+## Inputs
+
+-
+
+## Outputs
+
+-
+
+## Next Document
+
+-
