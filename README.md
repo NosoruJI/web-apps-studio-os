@@ -155,6 +155,14 @@ CONTRIBUTING.md
 
 ---
 
+## Repository Documents
+
+- REGISTRY.md
+- ROADMAP.md
+- ARCHITECTURE.md
+
+---
+
 # 📄 License
 
 MIT

@@ -1,3 +1,7 @@
+Master Registry
+
+→ ../REGISTRY.md
+
 # 📑 Documentation Index
 
 > **Web Apps Studio OS Documentation Portal**

@@ -186,6 +186,14 @@ Approval Date:
 
 ---
 
+# Repository Registry
+
+Master Registry
+
+REGISTRY.md
+
+---
+
 # Change History
 
 | Version | Date | Changes |
