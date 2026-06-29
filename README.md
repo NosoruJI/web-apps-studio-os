@@ -163,6 +163,19 @@ CONTRIBUTING.md
 
 ---
 
+## Repository Navigation
+
+| File | Purpose |
+|------|----------|
+| README | เริ่มต้นใช้งาน |
+| CATALOG | สารบัญ |
+| REGISTRY | ทะเบียนเอกสาร |
+| ROADMAP | แผนงาน |
+| ARCHITECTURE | โครงสร้างระบบ |
+| MANIFEST | Machine Metadata |
+
+---
+
 # 📄 License
 
 MIT

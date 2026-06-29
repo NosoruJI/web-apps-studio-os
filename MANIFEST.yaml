@@ -1,0 +1,50 @@
+version: 1.0.0
+
+repository:
+  name: Web Apps Studio OS
+  status: active
+  owner: Web Apps Studio
+
+documents:
+
+  foundation:
+
+    - id: WAS-CORE-000
+      title: Core Architecture
+      version: 1.0.0
+      status: active
+      maturity: L1
+
+    - id: WAS-CORE-001
+      title: Project Overview
+      version: 1.0.0
+      status: active
+      maturity: L1
+
+    - id: WAS-CORE-002
+      title: Core Framework
+      version: 1.0.0
+      status: active
+      maturity: L1
+
+    - id: WAS-CORE-003
+      title: Governance Model
+      version: 1.0.0
+      status: active
+      maturity: L1
+
+    - id: WAS-CORE-004
+      title: Glossary
+      status: planned
+
+standards: []
+
+experts: []
+
+templates: []
+
+playbooks: []
+
+references: []
+
+examples: []
