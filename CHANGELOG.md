@@ -1,23 +1,30 @@
-# 📜 CHANGELOG
+# Changelog
 
 All notable changes to **Web Apps Studio OS** will be documented in this file.
 
-This project follows the principles of [Keep a Changelog](https://keepachangelog.com/) and Semantic Versioning (SemVer).
+This project follows:
+
+- Keep a Changelog
+- Semantic Versioning (SemVer)
 
 ---
 
 # Versioning
 
-Format:
-
 MAJOR.MINOR.PATCH
 
-Example:
+Example
 
-- 1.0.0 → Initial stable release
-- 1.1.0 → New features
-- 1.1.1 → Bug fixes
-- 2.0.0 → Breaking changes
+1.0.0
+
+MAJOR
+Breaking Changes
+
+MINOR
+New Features
+
+PATCH
+Bug Fixes
 
 ---
 
@@ -31,11 +38,19 @@ Example:
 
 -
 
-## Fixed
+## Deprecated
 
 -
 
 ## Removed
+
+-
+
+## Fixed
+
+-
+
+## Security
 
 -
 
@@ -45,85 +60,76 @@ Example:
 
 ## Added
 
-- Initial repository
-- README
-- ROADMAP
-- Repository structure
-- MIT License
+- Initial Repository Structure
+- Core Architecture
+- Repository Registry
+- Repository Manifest
+- Repository Catalog
+- ADR Framework
+- ADR Template
+- ADR-001 Repository Structure
+
+---
 
 ## Changed
 
 -
 
+---
+
 ## Fixed
 
 -
 
-## Removed
-
--
-
 ---
-
-# Release Notes
-
-## v1.0.0
-
-🎉 Initial release of Web Apps Studio OS.
-
-This release establishes the project foundation including:
-
-- Repository structure
-- Documentation strategy
-- Development roadmap
-- Core architecture planning
-
----
-
-# Changelog Guidelines
-
-## Added
-
-New features.
-
-## Changed
-
-Changes in existing functionality.
-
-## Deprecated
-
-Features that will be removed.
-
-## Removed
-
-Removed features.
-
-## Fixed
-
-Bug fixes.
 
 ## Security
 
-Security improvements.
+-
 
 ---
 
-# Release Process
+# Changelog Rules
 
-1. Update version number
-2. Update release date
-3. Move changes from "Unreleased"
-4. Create Git tag
-5. Publish GitHub Release
+Every Pull Request must update this file if it changes:
+
+- Features
+- Standards
+- Architecture
+- Templates
+- Experts
+- Documentation
 
 ---
 
-# Next Release
+# Release Rules
 
-Version: **1.1.0**
+MAJOR
 
-Focus:
+Breaking Changes
 
-- Core Framework
-- Expert Modules
-- Documentation Standards
+MINOR
+
+New Features
+
+PATCH
+
+Documentation
+
+Bug Fix
+
+Metadata
+
+---
+
+# Related Documents
+
+- ROADMAP.md
+- REGISTRY.md
+- MANIFEST.yaml
+
+---
+
+# Maintainer
+
+Web Apps Studio
