@@ -1,240 +1,327 @@
-# 🤝 Contributing Guide
+# Contributing to Web Apps Studio OS
 
-Welcome to **Web Apps Studio OS**.
+Version: 1.0.0
 
-This document defines the standards for contributing to this repository.
+Status: Active
+
+Owner: Web Apps Studio
 
 ---
 
-# Purpose
+# Executive Summary
 
-The goal of this project is to build a professional AI-powered Software Development Operating System.
+ขอบคุณที่ร่วมพัฒนา Web Apps Studio OS
 
-Every document should follow the same structure, terminology, and quality standards.
+Repository นี้ใช้มาตรฐานระดับ Enterprise สำหรับการจัดการเอกสาร ความรู้ และการพัฒนา Software Engineering Framework
+
+ผู้ร่วมพัฒนาทุกคน (Human และ AI) ต้องปฏิบัติตามมาตรฐานในเอกสารนี้
+
+---
+
+# Core Principles
+
+ทุกการเปลี่ยนแปลงต้องยึดหลัก
+
+- Business First
+- User First
+- Documentation First
+- Architecture First
+- Security by Design
+- Quality by Design
+- Simplicity
+- Reusability
+- Maintainability
+- Scalability
+
+---
+
+# Before You Start
+
+ก่อนเพิ่มหรือแก้ไขเอกสาร
+
+ตรวจสอบ
+
+- REGISTRY.md
+- MANIFEST.yaml
+- CATALOG.md
+- WAS-CORE-000
+- WAS-STD-001
 
 ---
 
 # Repository Structure
 
 ```
+
+README.md
+REGISTRY.md
+ROADMAP.md
+ARCHITECTURE.md
+CHANGELOG.md
+CONTRIBUTING.md
+
 docs/
-├── 00-Core/
-├── 01-Experts/
-├── 02-Standards/
-├── 03-Templates/
-├── 04-Checklists/
-├── 05-Playbooks/
-├── 06-Knowledge/
-├── 07-Orchestration/
-├── 08-Prompt-Library/
-├── 09-Reference-Architecture/
-└── 10-Example-Projects/
+
 ```
 
 ---
 
-# Branch Strategy
+# Creating a New Document
 
-Never work directly on `main`.
+ทุกเอกสารต้อง
 
-Create a feature branch.
+- มี Document ID
+- มี Version
+- มี Status
+- มี Owner
+- มี Related Documents
+- มี Change History
 
-Example
-
-```
-feature/core-framework
-
-feature/product-manager
-
-feature/solution-architect
-
-feature/templates
-
-feature/checklists
-```
-
----
-
-# Commit Convention
-
-Use Conventional Commits.
-
-Examples
-
-```
-docs(core): add project overview
-
-docs(pm): improve discovery guide
-
-docs(sa): update architecture template
-
-docs(qa): add testing checklist
-
-feat(prompt): add orchestration rules
-
-fix(core): correct terminology
-```
+ห้ามสร้างไฟล์โดยไม่มี Metadata
 
 ---
 
 # Naming Convention
 
-Every document must use the following naming format.
+รูปแบบ
 
 ```
+
 WAS-CORE-001-Project-Overview.md
 
-WAS-PM-001-Discovery.md
+```
 
-WAS-SA-001-System-Architecture.md
+หรือ
 
-WAS-QA-001-Test-Strategy.md
+```
+
+WAS-STD-001-Documentation-Standard.md
+
+```
+
+ห้ามใช้
+
+```
+
+new.md
+
+test.md
+
+document.md
+
 ```
 
 ---
 
 # Document Metadata
 
-Every document should begin with metadata.
+ทุกไฟล์ต้องมี YAML
 
-Example
+ตัวอย่าง
 
 ```yaml
-ID:
-Title:
-Module:
-Version:
-Status:
-Owner:
-Audience:
-Purpose:
-Depends On:
-Related:
-Last Updated:
+id:
+
+title:
+
+version:
+
+status:
+
+owner:
+
+related:
+
+created:
+
+last_updated:
 ```
 
 ---
 
-# Document Structure
+# Writing Standard
 
-All documents should follow this structure.
+ใช้ Markdown
 
-1. Executive Summary
-2. Purpose
-3. Scope
-4. Inputs
-5. Outputs
-6. Workflow
-7. Best Practices
-8. Checklist
-9. Examples
-10. Handoff
-11. Revision History
+หัวข้อ
 
----
+```
+# H1
 
-# Markdown Standards
+## H2
 
-Use
+### H3
+```
 
-- Headings
-- Tables
-- Checklists
-- Code blocks
-- Mermaid diagrams (when appropriate)
+ใช้ตารางเมื่อเหมาะสม
 
-Avoid
+ใช้ Checklist เมื่อเหมาะสม
 
-- Long paragraphs
-- Inconsistent heading levels
-- Mixing Thai and English in headings
-- Unstructured notes
+ใช้ Code Block เมื่อเหมาะสม
 
 ---
 
-# Documentation Principles
+# Updating Existing Documents
 
-Every document should be
+หากแก้ไขเอกสาร
 
-- Clear
-- Reusable
-- Maintainable
-- Versioned
-- Easy to review
-- Easy to hand off
+ต้อง
+
+- เพิ่ม Change History
+- อัปเดต last_updated
+- ตรวจสอบ Related Documents
+- ตรวจสอบ REGISTRY
 
 ---
 
-# Review Checklist
+# ADR Rules
 
-Before submitting, verify
+ทุกการตัดสินใจสำคัญ
 
-- [ ] Correct file name
-- [ ] Correct folder
-- [ ] Metadata completed
-- [ ] Formatting consistent
-- [ ] Grammar checked
-- [ ] Links verified
-- [ ] Cross references added
-- [ ] Version updated
+ต้องสร้าง ADR
+
+ตัวอย่าง
+
+- เปลี่ยน Architecture
+
+- เปลี่ยน Metadata
+
+- เปลี่ยน Versioning
+
+- เปลี่ยน Standards
+
+---
+
+# Commit Convention
+
+ใช้ Conventional Commits
+
+ตัวอย่าง
+
+```
+
+docs(core): add glossary
+
+docs(adr): add ADR-002
+
+docs(std): update metadata standard
+
+feat(auth): add login
+
+fix(api): resolve validation bug
+
+refactor(core): simplify structure
+
+```
 
 ---
 
 # Pull Request Checklist
 
-Before merging
+- [ ] Metadata ถูกต้อง
 
-- [ ] Document reviewed
-- [ ] Naming convention followed
-- [ ] Markdown validated
-- [ ] No duplicated content
-- [ ] Links working
-- [ ] Related documents updated
+- [ ] Document ID ถูกต้อง
 
----
+- [ ] Change History อัปเดต
 
-# Versioning
+- [ ] REGISTRY อัปเดต
 
-This repository follows Semantic Versioning.
+- [ ] MANIFEST อัปเดต
 
-```
-MAJOR.MINOR.PATCH
-```
+- [ ] ไม่มี Document ID ซ้ำ
 
-Example
-
-```
-1.0.0
-
-1.1.0
-
-1.1.1
-
-2.0.0
-```
+- [ ] ผ่าน Review
 
 ---
 
-# Questions
+# Human Contribution
 
-If a requirement is unclear
+ผู้พัฒนาต้อง
 
-Do **not** guess.
+- ตรวจสอบ Requirement
 
-Instead
+- ตรวจสอบมาตรฐาน
 
-- Ask questions
-- Validate assumptions
-- Update documentation after confirmation
+- ไม่สร้างข้อมูลซ้ำ
+
+- อ้างอิงเอกสารเดิม
+
+---
+
+# AI Contribution
+
+AI ต้อง
+
+- ไม่เดา Requirement
+
+- อ้างอิง Standards
+
+- อ้างอิง Core Framework
+
+- สร้าง Metadata
+
+- เพิ่ม Change History
+
+- ระบุ Assumptions
+
+- ระบุ Risks
+
+---
+
+# Review Process
+
+Draft
+
+↓
+
+Review
+
+↓
+
+Approved
+
+↓
+
+Merged
 
 ---
 
 # Definition of Done
 
-A contribution is complete when
+งานถือว่าเสร็จเมื่อ
 
-- Documentation is accurate
-- Standards are followed
-- Links are updated
-- Review is completed
-- Ready for handoff
+- เอกสารถูกต้อง
+
+- Metadata ครบ
+
+- Standards ครบ
+
+- Change History ครบ
+
+- Review ผ่าน
+
+- REGISTRY อัปเดต
+
+- MANIFEST อัปเดต
+
+---
+
+# Related Documents
+
+- README.md
+
+- REGISTRY.md
+
+- MANIFEST.yaml
+
+- CHANGELOG.md
+
+- WAS-CORE-000
+
+- WAS-STD-001
+
+---
+
+# Maintainer
+
+Web Apps Studio
