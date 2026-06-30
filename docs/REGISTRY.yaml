@@ -1,0 +1,84 @@
+version: 1.0.0
+
+repository: Web Apps Studio OS
+
+last_updated: 2026-06-29
+
+documents:
+
+  core:
+
+    - id: WAS-CORE-000
+      title: Repository Foundation
+      version: 1.0.0
+      status: Active
+      owner: Repository Owner
+
+    - id: WAS-CORE-000A
+      title: Constitution
+      version: 1.0.0
+      status: Active
+      owner: Repository Owner
+
+    - id: WAS-CORE-001
+      title: Repository Principles
+      version: 1.0.0
+      status: Active
+      owner: Repository Owner
+
+    - id: WAS-CORE-002
+      title: Documentation Framework
+      version: 1.0.0
+      status: Active
+
+    - id: WAS-CORE-003
+      title: Repository Structure
+      version: 1.0.0
+      status: Active
+
+  policy:
+
+    - id: WAS-POL-001
+      title: Documentation First
+      version: 1.0.4
+      status: Active
+
+    - id: WAS-POL-002
+      title: Architecture First
+      version: Planned
+
+    - id: WAS-POL-003
+      title: AI Collaboration
+      version: Planned
+
+    - id: WAS-POL-004
+      title: Security by Design
+      version: Planned
+
+    - id: WAS-POL-005
+      title: Quality First
+      version: Planned
+
+  standard:
+
+    - id: WAS-STD-001
+      title: Documentation Governance Standard
+      version: 1.0.1
+      status: Draft
+
+  adr:
+
+    - id: ADR-001
+      title: Repository Structure
+
+    - id: ADR-002
+      title: Repository Organization
+
+    - id: ADR-003
+      title: Document ID Standard
+
+    - id: ADR-004
+      title: Metadata Standard
+
+    - id: ADR-005
+      title: Documentation First
