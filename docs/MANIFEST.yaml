@@ -1,0 +1,59 @@
+version: 1.0.0
+
+repository:
+  name: Web Apps Studio OS
+  description: Enterprise Knowledge & Documentation Repository
+
+generated_at: 2026-06-29
+
+folders:
+
+  - name: 00-Core
+    description: Core Principles and Constitution
+
+  - name: 01-Policies
+    description: Organizational Policies
+
+  - name: 02-Standards
+    description: Implementation Standards
+
+  - name: 03-Templates
+    description: Document Templates
+
+  - name: 04-Checklists
+    description: Validation Checklists
+
+  - name: 05-Playbooks
+    description: Operational Procedures
+
+  - name: 06-Knowledge
+    description: Knowledge Base
+
+  - name: 07-Orchestration
+    description: AI Orchestration
+
+  - name: 08-Prompt-Library
+    description: Prompt Collections
+
+  - name: 09-Reference-Architecture
+    description: Reference Architectures
+
+  - name: 10-Example-Projects
+    description: Example Projects
+
+  - name: ADR
+    description: Architecture Decision Records
+
+metadata:
+
+  versioning: Semantic Versioning
+
+  document_id: Required
+
+  owner: Required
+
+  review: Required
+
+  registry: docs/REGISTRY.yaml
+
+status: Active
